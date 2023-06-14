@@ -1,14 +1,20 @@
-# Terraform criando IaaS no AWS e fazendo deploy de Java 11 e MySQL 8
+# Terraform criando IaaS no AWS e fazendo deploy de Java 11 e MySQL
 
 Pré-requisitos
 
-- Aws-cli instalado
+- aws instalado e configurado
 - Terraform instalado
 
-Logar no Azure via az-cli, o navegador será aberto para que o login seja feito
+Logar na AWS usando aws cli com o comando abaixo
 
 ```sh
-az login
+aws configure sso
+```
+
+Gerar chave pública e privada para acessar a VM, com nome "id_rsa" na raiz do projeto
+
+```sh
+ssh-keygen -t rsa -b 4096
 ```
 
 Inicializar o Terraform
