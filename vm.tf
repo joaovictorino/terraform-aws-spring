@@ -5,7 +5,7 @@ resource "aws_network_interface" "nic-aula" {
 }
 
 resource "aws_instance" "vm-aula" {
-  instance_type = "t2.micro"
+  instance_type = "t2.small"
   ami           = "ami-05eeafbc1fd393e9b"
   key_name      = aws_key_pair.key-aula.id
 

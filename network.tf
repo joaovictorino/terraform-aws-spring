@@ -55,13 +55,6 @@ resource "aws_security_group" "sg-aula" {
     cidr_blocks = ["10.80.4.0/24"]
   }
 
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
   tags = {
     project = "aula"
   }
