@@ -1,4 +1,4 @@
-# Terraform criando IaaS no AWS e fazendo deploy de Java 11 e MySQL
+# Terraform criando IaaS no AWS e fazendo deploy de Java 11 e MySQL 5.7
 
 Pré-requisitos
 
