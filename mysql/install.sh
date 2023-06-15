@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sleep 120
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install -y mysql-common libevent-core-2.1-6 mysql-client-5.7 mysql-server-core-5.7 libhtml-template-perl mysql-server-5.7 
