@@ -32,7 +32,7 @@ resource "null_resource" "upload-db" {
       host        = aws_instance.vm-aula-db.public_ip
     }
 
-    source = "mysql"
+    source      = "mysql"
     destination = "/home/ubuntu"
   }
 }
